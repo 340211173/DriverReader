@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\ReadAndWrite.c">
+      <Filter>ReadAndWrite</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ReadAndWrite.h">
+      <Filter>ReadAndWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernelreload.c">
+      <Filter>KernelReload</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineHook.c">
+      <Filter>InlineHook</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.c">
+      <Filter>KernelReload\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixrelocation.c">
+      <Filter>KernelReload\Fixrelocation</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunc.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsVersion.c">
+      <Filter>WindowsVersion</Filter>
+    </ClCompile>
+    <ClCompile Include="Ntos.c">
+      <Filter>Ntos</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32k.c">
+      <Filter>Win32k</Filter>
+    </ClCompile>
+    <ClCompile Include="HookNtFunction.c">
+      <Filter>HookFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ldasm.c">
+      <Filter>ldasm</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyRoutine.c">
+      <Filter>NotifyRoutine</Filter>
+    </ClCompile>
+    <ClCompile Include="HideProcess.c">
+      <Filter>HideProcess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ReadAndWrite">
+      <UniqueIdentifier>{056ee472-0089-47d3-b664-d04853257794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelReload">
+      <UniqueIdentifier>{c7964231-84de-4e46-a446-39c87776df49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InlineHook">
+      <UniqueIdentifier>{f68fece3-d13a-4220-b598-82bbd4cbd717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7a0c0f10-3e33-4aa0-95f5-f377a88bf868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsVersion">
+      <UniqueIdentifier>{0e1b5050-e8a4-4acf-9f40-d0dc5dbc5b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ntos">
+      <UniqueIdentifier>{4e5e1a93-34bd-4e30-a819-5ed6cfcfc636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32k">
+      <UniqueIdentifier>{64facbdf-d61c-493a-8c30-3863907bed8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookFunction">
+      <UniqueIdentifier>{aa87e59b-cbfb-49c3-adf3-d18f61dca2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ldasm">
+      <UniqueIdentifier>{f48e2830-bffd-4aa3-ab45-a254d93c1558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotifyRoutine">
+      <UniqueIdentifier>{27bec3b6-de10-447a-8aae-9675c116b775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HideProcess">
+      <UniqueIdentifier>{74a99263-0ed7-4157-93d3-a5922b4891f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelReload\FileSystem">
+      <UniqueIdentifier>{d87937bc-8c20-442b-a5b0-5bb16355c9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelReload\Fixrelocation">
+      <UniqueIdentifier>{b222ef63-94ce-4364-a04e-5798842251e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MsgHook">
+      <UniqueIdentifier>{6da8ad94-42b3-4395-bb68-25d7c6fbffc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kernelreload.h">
+      <Filter>KernelReload</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineHook.h">
+      <Filter>InlineHook</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>KernelReload\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixrelocation.h">
+      <Filter>KernelReload\Fixrelocation</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsVersion.h">
+      <Filter>WindowsVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="Ntos.h">
+      <Filter>Ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32k.h">
+      <Filter>Win32k</Filter>
+    </ClInclude>
+    <ClInclude Include="HookNtFunction.h">
+      <Filter>HookFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ldasm.h">
+      <Filter>ldasm</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyRoutine.h">
+      <Filter>NotifyRoutine</Filter>
+    </ClInclude>
+    <ClInclude Include="HideProcess.h">
+      <Filter>HideProcess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

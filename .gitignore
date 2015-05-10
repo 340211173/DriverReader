@@ -1,32 +1,14 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#Source Files
+#过滤掉所有文件，忽略.c和.h
+*.*
+*.*.*
+!*.c
+!*.h
+!*.bat
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*..user
+#忽略易语言程序
+!*.e
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
